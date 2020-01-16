@@ -1,6 +1,7 @@
 'use stric';
 var num1 = parseInt(prompt("Ingrese el primer numero "), 0);
 var num2 = parseInt(prompt("Ingrese el segundo numero "), 0);
+
 function calculadora(num1, num2) {
     console.log("Suma: " + (num1 + num2));
     console.log("Resta: " + (num1 - num2));
