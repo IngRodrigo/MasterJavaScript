@@ -24,6 +24,11 @@ var busqueda=texto1.lastIndexOf("curso");//la ultima vez que aparece en la caden
 var busqueda=texto1.match("curso");//devuelve un array con los resultados que encuentre
 var busqueda=texto1.substr(14,5);//sacar 5 letras desde el caracter 14
 var busqueda=texto1.charAt(44);//saca la letra que le indquemos en su indice
+var busqueda=texto1.includes("JavaScript");//true o false si existe la palabra exacta dentro de la cadena
+var busqueda=texto1.replace("JavaScript","NuevoTexto"); //reemplaza un texto por otro
+var busqueda=texto1.slice(14);//corta el script desde el indice que le indiquemos
+var busqueda=texto1.split();//mete la cadena a un array y si le pasamos un separdor como parametro, separa los elementos 
+var busqueda=texto1.trim();//quita los espacios por delante y por detras
 console.log(busqueda);
 
 
