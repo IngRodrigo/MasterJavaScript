@@ -1,11 +1,14 @@
 'use stric'
-function holaMundo(){
-    var holaMundodeLaFuncion="Hola mundo soy una variable de la funcion";
-    var numero=13;
-    console.log(numero.toString());//se convierrte a texto con toString
-    console.log(texto);
-}
-var numero=12;
-var texto = 'Hola mundo, soy una variable global';
 
-holaMundo(texto);
+const saludar=(texto)=>{
+    let hola_mundo='Texto dentro de una funcion';//variable solo de la funcion
+    //console.log(hola_mundo);
+    //console.log(typeof numero.toString());
+    return console.log(texto);
+}
+
+
+let numero=12;//global
+let texto= 'Hola mundo soy una variable global';
+
+saludar(texto);
