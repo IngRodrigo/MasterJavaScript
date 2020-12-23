@@ -1,11 +1,11 @@
 'use stric';
-var nombre=prompt("Mete tu nombre");
-var apellido=prompt("Mete tus apellidos");
+let nombre=prompt("Introduce tu nombre: ");
+let apellido=prompt("Introduce tu apellido: ");
 
-var plantilla=`
-        <h1>Hola que tal?</h1>
-        <h3>Mi nombre es: ${nombre}</h3>
-        <p>Mis apllidos son: ${apellido}</p>
+let plantilla=`
+        <h1>Hola como estas?</h1>
+        <h2>Mi nombre es ${nombre}</h2>
+        <p>Mi apellido es: ${apellido}</p>
 `;
 
 document.write(plantilla);
