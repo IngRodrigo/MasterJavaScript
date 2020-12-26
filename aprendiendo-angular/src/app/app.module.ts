@@ -11,12 +11,14 @@ import { AppComponent } from './app.component';
  */
 import {VideojuegoComponent} from './videoJuego/videojuego.componet';
 import { ZapatillasComponent } from './zapatillas/zapatillas.component';
+import { CursosComponent } from './cursos/cursos.component';
 //los componentes, pipes, van siempre en declarations
 @NgModule({
   declarations: [
     AppComponent,
     VideojuegoComponent,
-    ZapatillasComponent
+    ZapatillasComponent,
+    CursosComponent
   ],
   imports: [
     BrowserModule,
