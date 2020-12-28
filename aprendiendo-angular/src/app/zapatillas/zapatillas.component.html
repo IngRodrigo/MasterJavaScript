@@ -1,5 +1,5 @@
 <h2>{{titulo}}</h2>
 <ul>
-    <li>Reeboot classic</li>
-    <li>Adidas go</li>
+    <li *ngFor="let zapatilla of zapatillas"
+    >{{zapatilla.nombre}} - <strong>{{zapatilla.precio}}$</strong></li>
 </ul>

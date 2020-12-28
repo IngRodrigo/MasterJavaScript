@@ -22,15 +22,15 @@ export class VideojuegoComponent implements OnInit, DoCheck, OnDestroy{
     }
     //rod_dev: metodo de la interface OnInit se ejecuta al iniciar el componente
     ngOnInit(){
-        console.log(`OnInit Ejecuado`);
+      //  console.log(`OnInit Ejecuado`);
     }
     //rod_dev: se ejecuta cuando se efectua algun cambio en la aplicacion
     ngDoCheck(){
-        console.log(`Se ejecuto el DoCheck`);
+        //console.log(`Se ejecuto el DoCheck`);
     }
     //rod_dev: se ejecuta antes de elimnar un componente
     ngOnDestroy(){
-        console.log(`OnDestroy ejecutado`);
+        //console.log(`OnDestroy ejecutado`);
     }
 
 }

@@ -1,5 +1,13 @@
-<h1>{{title}}</h1>
-<button>Ocultar </button>
-<videojuego></videojuego>
-<hr>
-<zapatillas></zapatillas>
+<div [ngStyle]="{
+'background': config.fondo,
+'padding':'20px',
+'border':'5px solid black',
+'border-color':config.color
+}">
+  <h1>{{ title }}</h1>
+  <h2>{{ descripcion }}</h2>
+  <button (click)="ocultarVideojuegos()">Ocultar</button>
+  <videojuego *ngIf="mostrarVideojuego"></videojuego>
+  <hr />
+  <zapatillas></zapatillas>
+</div>
