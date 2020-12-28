@@ -9,5 +9,13 @@
   <button (click)="ocultarVideojuegos()">Ocultar</button>
   <videojuego *ngIf="mostrarVideojuego"></videojuego>
   <hr />
-  <zapatillas></zapatillas>
+ <!-- <zapatillas></zapatillas>-->
+ <nav>
+     <a [routerLink]="[ '/home']">Home</a>
+     <a [routerLink]="[ '/zapatillas']">zapatilla</a>
+     <a [routerLink]="[ '/cursos']">cursos</a>
+     <a [routerLink]="[ '/videojuegos']">videojuegos</a>
+ </nav>
+ <router-outlet></router-outlet>
+
 </div>
